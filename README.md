@@ -1,6 +1,6 @@
 # 🏎️ 2025 국제 대학생 EV 자율주행 대회 1/5부문
 
-![1](https://github.com/user-attachments/assets/28ef12f2-57ae-4d83-8e9d-b28233c6ba53)
+<img width="1186" height="618" alt="image" src="https://github.com/user-attachments/assets/60ba2ad2-92d8-4afd-bfaf-c74f87046e13" />
 
 본 프로젝트는 **ROS 2 환경**에서 동작하는 자율주행 시스템으로, **계층적 제어 구조**를 통해 복잡한 주행 환경에 대응하는 것을 목표로 한다.
 
