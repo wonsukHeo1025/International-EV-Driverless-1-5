@@ -1,0 +1,6 @@
+[submodule "RTK_GPS_NTRIP"]
+	path = RTK_GPS_NTRIP
+	url = https://github.com/olvdhrm/RTK_GPS_NTRIP.git
+[submodule "velodyne"]
+	path = velodyne
+	url = https://github.com/ros-drivers/velodyne.git
