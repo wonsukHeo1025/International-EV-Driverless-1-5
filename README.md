@@ -1,11 +1,12 @@
 # 🏎️ 2025 국제 대학생 EV 자율주행 대회 1/5부문
 
 ## 역할: Lane Detection + Vehicle Control
+
 ![1](https://github.com/user-attachments/assets/28ef12f2-57ae-4d83-8e9d-b28233c6ba53)
 
-본 프로젝트는 **ROS 2 환경**에서 자율주행 차량의 **차선 인식 및 경로 계획, 차량 제어**를 목적으로 개발되었다. 
+본 프로젝트는 **ROS 2 환경**에서 자율주행 차량의 **차선 인식 + GPS 웨이포인트 주행 + 장애물 회피, 경로 계획, 차량 제어**를 목적으로 개발되었다. 
 
-딥러닝 기반의 **YOLOPv2 모델**과 이미지 처리 기법을 결합한 방식이다.
+커스텀 YOLOv8 모델을 통한 lane detection, Rule-based 기반 콘 탐지, GPS waypoint 주행을 기반으로 한다.
 
 ---
 
@@ -56,17 +57,6 @@ jeju_ws
         └── package.xml
 
 ```
-
----
-
-## ⚙모델 설치
-
-YOLOPv2 모델을 다운로드하고 아래 경로에 저장:
-```
-your_ws/src/jeju/data/weights/yolopv2.pt
-```
-
-- [YOLOPv2 모델 다운로드](https://github.com/CAIC-AD/YOLOPv2/releases/download/V0.0.1/yolopv2.pt)
 
 ---
 
